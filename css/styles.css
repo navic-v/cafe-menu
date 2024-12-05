@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Oswald:wght@200..700&display=swap');
+
+body {
+    background: url('../img/coffee-bg.jpg') no-repeat fixed center;
+    font-family: sans-serif;
+}
+
+.menu {
+    margin: 20px auto;
+    width: 80%;
+    max-width: 500px;
+    background-color: rgb(254, 221, 174);
+    padding: 20px 20px;
+}
+
+h1, h2, footer {
+    text-align: center;
+}
+h1 {
+    font-family: "Oswald", sans-serif;
+    color: rgb(58, 89, 71);
+    text-transform: uppercase;
+    font-size: 2em;
+}
+h2 {
+    font-family: "Berkshire Swash", serif;
+    color: rgb(154, 25, 51);
+    font-size: 1.5em
+}
+.estimate {
+    text-align: center;
+    font-style: italic;
+    margin-top: -20px;
+    font-size: 0.8em;
+}
+hr {
+    margin: 30px 0;
+    border: 2px solid rgba(231, 159, 71, 1);
+}
+
+.item p {
+    display: inline-block;
+    margin: 10px 0;
+}
+.flavor, .dessert {
+    text-align: left;
+    width: 75%;
+}
+.price {
+    text-align: right;
+    width: 25%;
+}
+
+footer {
+    margin-top: -10px;
+    color: rgb(58, 89, 71);
+    font-style: italic;
+    font-size: 0.8em;
+}
+a {color: rgb(58, 89, 71); text-decoration: none;}
+a:visited {color: rgb(58, 89, 71);}
+a:hover, a:active {color: rgb(128, 89, 71)};
